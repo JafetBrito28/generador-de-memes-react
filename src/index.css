@@ -5,9 +5,60 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgb(67,207,255);
+background: linear-gradient(90deg, rgba(67,207,255,1) 0%, rgba(104,71,240,1) 40%, rgba(0,212,255,1) 100%);
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.main {
+  
+}
+.main h1 {
+  background: rgb(180,58,58);
+  background: linear-gradient(90deg, rgba(180,58,58,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  font-size: 55px;
+  font-family: 'Segoe UI';
+}
+.main h2 {
+  font-size: 38px;
+}
+.select-meme {
+  background-color: whitesmoke;
+  border-bottom-style: dashed;
+}
+.select-meme {
+
+}
+.meme span {
+  position: absolute;
+    width: 100%;
+    left: 0px;
+    margin-top: 400px;
+    font-size: 38px;
+    color: white;
+    /* text-shadow: 0 0 10px #000; */
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 rgb(255 250 250), 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+.meme img {
+  width: 500px;
+}
+.meme span:nth-child(1)  {
+  margin-top: 50px;
+}
+
+
+
+
+
+
+footer {
+  background-color: rgb(193, 82, 82);
+}
+footer p {
+  color: white
 }
