@@ -1,18 +1,9 @@
-// Comentario en JavaScript
-// Que significa className, en html utilizamos class para definir una clase, en jsx no podemos dado que class es una palabra reservada, por eso es que se nombra como className
 // import logo from './logo.svg';
 import './App.css';
 import React, { useState } from 'react';
 import html2canvas from 'html2canvas';
 
-function App() {
-  // let [variable1, variable2] = ["lUCAS", 12312]
-  // Se crea una constante para los estados de react
-  // Se crea una constante con dos variables y la funcion de 
-  // React lo que hace devuelve un array con dos valores,
-  // sin embargo estos valores que devuelve la funcion, 
-  // son bastante complejos, 
-  // linea1, es la variable y set es una funcion que permite modificar la variable
+function App() {  
   const [linea1, setLinea1] = useState("");
   const [linea2, setLinea2] = useState("");
   const [imagen, setImagen] = useState("");
